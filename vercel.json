@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "mlm-master-platform",
+  "builds": [
+    {
+      "src": "out/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/out/$1"
+    }
+  ]
+}

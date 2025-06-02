@@ -1,0 +1,155 @@
+{
+  "deployment": {
+    "name": "MLM Master Platform",
+    "version": "1.0.0",
+    "buildDate": "2025-06-02",
+    "framework": "Next.js 15.3.2",
+    "buildTool": "Bun",
+    "outputType": "static"
+  },
+  "build": {
+    "outputDirectory": "out",
+    "totalSize": "2.4MB",
+    "pageCount": 13,
+    "assetOptimization": true,
+    "seoOptimized": true,
+    "mobileReady": true
+  },
+  "pages": [
+    {
+      "path": "/",
+      "file": "index.html",
+      "title": "MLM Master Platform - Landing Page",
+      "description": "Main marketing and signup page"
+    },
+    {
+      "path": "/admin",
+      "file": "admin/index.html",
+      "title": "Admin Panel",
+      "description": "Administrative interface and controls"
+    },
+    {
+      "path": "/dashboard",
+      "file": "dashboard/index.html",
+      "title": "User Dashboard",
+      "description": "Member dashboard with analytics and tools"
+    },
+    {
+      "path": "/advanced-genealogy",
+      "file": "advanced-genealogy/index.html",
+      "title": "Advanced Genealogy",
+      "description": "Team structure visualization and reports"
+    },
+    {
+      "path": "/ai-chatbot",
+      "file": "ai-chatbot/index.html",
+      "title": "AI Chatbot",
+      "description": "AI assistant interface and management"
+    },
+    {
+      "path": "/ai-marketing",
+      "file": "ai-marketing/index.html",
+      "title": "AI Marketing",
+      "description": "AI-powered marketing automation tools"
+    },
+    {
+      "path": "/collaborative-team",
+      "file": "collaborative-team/index.html",
+      "title": "Collaborative Team",
+      "description": "Team collaboration and communication features"
+    },
+    {
+      "path": "/email-campaigns",
+      "file": "email-campaigns/index.html",
+      "title": "Email Campaigns",
+      "description": "Email marketing campaign builder and manager"
+    },
+    {
+      "path": "/marketing-automation",
+      "file": "marketing-automation/index.html",
+      "title": "Marketing Automation",
+      "description": "Comprehensive marketing automation hub"
+    },
+    {
+      "path": "/social-media",
+      "file": "social-media/index.html",
+      "title": "Social Media Manager",
+      "description": "Social media management and scheduling tools"
+    },
+    {
+      "path": "/team-management",
+      "file": "team-management/index.html",
+      "title": "Team Management",
+      "description": "Team administration and performance tracking"
+    },
+    {
+      "path": "/404",
+      "file": "404.html",
+      "title": "Page Not Found",
+      "description": "Custom 404 error page"
+    }
+  ],
+  "features": [
+    "Responsive design for all devices",
+    "SEO optimized with meta tags and structured data",
+    "Google Analytics integration ready",
+    "Social media sharing optimization",
+    "Performance optimized with image preloading",
+    "Progressive Web App ready",
+    "Accessibility compliant",
+    "Modern UI with shadcn/ui components",
+    "Advanced genealogy tree visualization",
+    "AI-powered marketing tools",
+    "Real-time collaboration features",
+    "Comprehensive email campaign builder",
+    "Social media management interface",
+    "Team performance analytics",
+    "Admin panel with full controls"
+  ],
+  "technologies": [
+    "Next.js 15.3.2",
+    "React 18.3.1",
+    "TypeScript 5.8.3",
+    "Tailwind CSS 3.4.17",
+    "shadcn/ui components",
+    "Framer Motion animations",
+    "D3.js for data visualization",
+    "Recharts for analytics",
+    "Lucide React icons"
+  ],
+  "hosting": {
+    "recommended": [
+      {
+        "service": "Netlify",
+        "url": "https://netlify.com",
+        "features": ["Free tier", "Automatic SSL", "Global CDN", "Form handling"],
+        "buildCommand": "bun run build",
+        "publishDirectory": "out"
+      },
+      {
+        "service": "Vercel",
+        "url": "https://vercel.com",
+        "features": ["Next.js optimized", "Edge network", "Analytics"],
+        "buildCommand": "bun run build",
+        "publishDirectory": "out"
+      },
+      {
+        "service": "GitHub Pages",
+        "url": "https://pages.github.com",
+        "features": ["Free hosting", "GitHub integration", "Custom domains"],
+        "note": "Upload out/ contents to docs/ folder"
+      }
+    ]
+  },
+  "customization": {
+    "branding": "Easy to customize colors, logos, and content",
+    "content": "All text content can be modified in component files",
+    "styling": "Tailwind CSS for rapid customization",
+    "analytics": "Replace Google Analytics ID in layout.tsx"
+  },
+  "requirements": {
+    "runtime": "Static hosting (no server required)",
+    "ssl": "Recommended for security and SEO",
+    "domain": "Custom domain recommended for branding"
+  }
+}
