@@ -40,3 +40,5 @@
 [2025-06-23T21:33:28.934Z] 🟪 Checking n8n
 [2025-06-23T21:33:28.981Z] ☑️ mlm-master-platform pushed to GitHub.
 [2025-06-23T21:33:28.982Z] 🟪 Checking n8n
+[2025-06-23T21:33:30.033Z] ❌ mlm-master-platform sync failed: Command failed: git commit -m "Auto-sync @ 2025-06-23T21:33:29.824Z"
+[2025-06-23T21:33:30.034Z] 🟪 Checking n8n
