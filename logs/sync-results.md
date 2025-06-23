@@ -46,3 +46,11 @@
 [2025-06-23T21:33:30.394Z] 🟪 Checking n8n
 [2025-06-23T21:33:31.653Z] ☑️ mlm-master-platform pushed to GitHub.
 [2025-06-23T21:33:31.658Z] 🟪 Checking n8n
+[2025-06-23T21:33:32.094Z] ❌ mlm-master-platform sync failed: Command failed: git push origin main
+[2025-06-23T21:33:32.099Z] 🟪 Checking n8n
+[2025-06-23T21:33:32.492Z] ❌ mlm-master-platform sync failed: Command failed: git push origin main
+[2025-06-23T21:33:32.497Z] 🟪 Checking n8n
+[2025-06-23T21:33:33.886Z] ☑️ mlm-master-platform pushed to GitHub.
+[2025-06-23T21:33:33.887Z] 🟪 Checking n8n
+[2025-06-23T21:33:34.019Z] ❌ mlm-master-platform sync failed: Command failed: git push origin main
+[2025-06-23T21:33:34.025Z] 🟪 Checking n8n
